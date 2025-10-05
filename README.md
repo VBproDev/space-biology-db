@@ -2,6 +2,8 @@
 
 This script was used to build the database that contains all publications in the field of **space biology** from 2010 to 2025. It includes publication links, titles, release dates, and author information, going beyond raw content to capture structured data and relationships. You can install the [dataset from Kaggle](https://www.kaggle.com/datasets/virajbijpuria/all-space-biology-publications-2010-2025)
 
+You can find example Python code utilising the dataset in this [Kaggle notebook](https://www.kaggle.com/code/virajbijpuria/notebookb99b1347e3)
+
 The database was built by scraping PubMed Central using **Playwright**, cleaned with **BeautifulSoup**, and stored in a **SQLite database** using **Peewee ORM**. This setup allows you to query publications, authors, and co-authorship relationships efficiently using SQL.
 
 Several interesting trends were uncovered using this database by running the example queries given at the bottom, we have even pasted the results for you to see on this page.  
