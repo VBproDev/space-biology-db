@@ -1,6 +1,6 @@
 # State of Space Biology (2010 – 2025)
 
-This script was used to build the database that contains all publications in the field of **space biology** from 2010 to 2025. It includes publication links, titles, release dates, and author information, going beyond raw content to capture structured data and relationships. You can install the [dataset from Kaggle](www.kaggle.com/datasets/virajbijpuria/all-space-biology-publications-2010-2025)
+This script was used to build the database that contains all publications in the field of **space biology** from 2010 to 2025. It includes publication links, titles, release dates, and author information, going beyond raw content to capture structured data and relationships. You can install the [dataset from Kaggle](https://www.kaggle.com/datasets/virajbijpuria/all-space-biology-publications-2010-2025)
 
 The database was built by scraping PubMed Central using **Playwright**, cleaned with **BeautifulSoup**, and stored in a **SQLite database** using **Peewee ORM**. This setup allows you to query publications, authors, and co-authorship relationships efficiently using SQL.
 
@@ -12,7 +12,7 @@ We encourage you to follow the guide below to get started using SQL for revealin
 
 # Getting Started
 
-1. Download the database from [Kaggle](www.kaggle.com/datasets/virajbijpuria/all-space-biology-publications-2010-2025)  
+1. Download the database from [Kaggle](https://www.kaggle.com/datasets/virajbijpuria/all-space-biology-publications-2010-2025)  
 2. Navigate to the folder where the DB was installed in the terminal
 3. Ensure you have `sqlite3` installed to interact with the database  
 
